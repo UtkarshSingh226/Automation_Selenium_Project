@@ -1,70 +1,44 @@
 pipeline {
     agent any
-    
-    tools { // Defines tools required for the pipeline
-        maven 'mvn' // Specifies the Maven tool named 'mvn'
-        jdk 'JDK11' // Ensure this matches the JDK installation name in Jenkins
-    }
-    
-    triggers { // Defines triggers for the pipeline
-        cron('H H(8-15)/2 * * 1-5') // Cron trigger to run the pipeline every 2 hours between 8 AM and 3 PM, Monday through Friday
+    tools {
+        maven "mvn"
+        jdk 'JDK11'
     }
     
     stages {
         stage('Build') {
             steps {
-                script {
-                    // Clean previous builds and install dependencies
-                    sh 'mvn clean'
-                }
+                // Clean and build the Maven project
+                bat 'mvn clean'
             }
         }
-        
-        stage('Run Tests - Chrome') {
-            environment {
-                BROWSER = 'chrome'
-            }
+        stage('Test') {
             steps {
-                script {
-                    // Run tests on Chrome
-                    sh 'mvn test -Dbrowser=chrome'
-                }
-            }
-            post {
-                always {
-                    // Archive test results and reports
-                    junit 'target/surefire-reports/*.xml'
-                    archiveArtifacts artifacts: 'logs/*.log', allowEmptyArchive: true
-                }
+                // Run tests
+                bat 'mvn test'
             }
         }
-        
-        stage('Generate Reports') {
+        stage('Deploy') {
             steps {
-                script {
-                    // Generate Extent Reports
-                    sh 'mvn verify'
-                }
+                // Placeholder for deployment steps
+                // Replace this with your deployment script or commands
+                echo 'Deploying the application...'
             }
-            post {
-                always {
-                    // Archive HTML reports
-                    publishHTML([
-                        reportName: 'Extent Reports',
-                        reportDir: 'target/surefire-reports',
-                        reportFiles: 'extent-report.html',
-                        alwaysLinkToLastBuild: true,
-                        keepAll: true
-                    ])
-                }
+        }
+        stage('Clean Up') {
+            steps {
+                // Clean up any temporary files or resources
+                bat 'mvn clean'
             }
         }
     }
     
     post {
-        always {
-            // Clean up workspace
-            cleanWs()
+        success {
+            echo 'Pipeline executed successfully!'
+        }
+        failure {
+            echo 'Pipeline failed!'
         }
     }
 }
