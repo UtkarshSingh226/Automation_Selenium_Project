@@ -1,38 +1,66 @@
 pipeline {
-    agent any // Specifies that the pipeline can run on any available agent (Jenkins node)
-
+    agent any
+    
     tools { // Defines tools required for the pipeline
         maven 'mvn' // Specifies the Maven tool named 'mvn'
         jdk 'JDK11' // Ensure this matches the JDK installation name in Jenkins
     }
-
+    
     triggers { // Defines triggers for the pipeline
         cron('H H(8-15)/2 * * 1-5') // Cron trigger to run the pipeline every 2 hours between 8 AM and 3 PM, Monday through Friday
     }
-
-    stages { // Defines stages of the pipeline
-        stage('Build') { // First stage: Build
-            steps { // Steps to be executed in this stage
-                bat 'mvn clean' // Executes Maven clean command to build the project
+    
+    stages {
+        stage('Build') {
+            steps {
+                script {
+                    // Clean previous builds and install dependencies
+                    sh 'mvn clean'
+                }
             }
         }
-
-        stage('Test') { // Second stage: Test
-            steps { // Steps to be executed in this stage
+        
+        stage('Run Tests - Chrome') {
+            environment {
+                BROWSER = 'chrome'
+            }
+            steps {
                 script {
-                    try {
-                        bat 'mvn test' // Executes Maven test command to run tests
-                    } catch (e) {
-                        unstable('Tests failed!') // Sets the build status to unstable if tests fail
-                        echo "Tests failed" // Outputs a message indicating test failure
-                    } finally {
-                        junit 'target/surefire-reports/*.xml' // Archive test results
-                    }
+                    // Run tests on Chrome
+                    sh 'mvn test -Dbrowser=chrome'
+                }
+            }
+            post {
+                always {
+                    // Archive test results and reports
+                    junit 'target/surefire-reports/*.xml'
+                    archiveArtifacts artifacts: 'logs/*.log', allowEmptyArchive: true
+                }
+            }
+        }
+        
+        stage('Generate Reports') {
+            steps {
+                script {
+                    // Generate Extent Reports
+                    sh 'mvn verify'
+                }
+            }
+            post {
+                always {
+                    // Archive HTML reports
+                    publishHTML([
+                        reportName: 'Extent Reports',
+                        reportDir: 'target/surefire-reports',
+                        reportFiles: 'extent-report.html',
+                        alwaysLinkToLastBuild: true,
+                        keepAll: true
+                    ])
                 }
             }
         }
     }
-
+    
     post {
         always {
             // Clean up workspace
