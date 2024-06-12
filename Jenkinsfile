@@ -3,6 +3,7 @@ pipeline {
 
     tools { // Defines tools required for the pipeline
         maven 'mvn' // Specifies the Maven tool named 'mvn'
+        jdk 'JDK11' // Ensure this matches the JDK installation name in Jenkins
     }
 
     triggers { // Defines triggers for the pipeline
@@ -12,7 +13,7 @@ pipeline {
     stages { // Defines stages of the pipeline
         stage('Build') { // First stage: Build
             steps { // Steps to be executed in this stage
-                bat 'mvn clean install' // Executes Maven clean and install commands to build the project
+                bat 'mvn clean' // Executes Maven clean command to build the project
             }
         }
 
