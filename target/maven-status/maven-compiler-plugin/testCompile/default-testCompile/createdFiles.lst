@@ -1,0 +1,12 @@
+tests\GroceryTestPage.class
+tests\MobilePageTest.class
+tests\TestScenario4.class
+tests\TravelTestPage.class
+tests\AppliancesTestPage.class
+tests\SellerTestPage.class
+tests\AddtocartTest.class
+tests\SignupTest.class
+tests\ViewCartTest.class
+tests\LoginTest.class
+tests\SearchProduct.class
+tests\TestScenario3.class

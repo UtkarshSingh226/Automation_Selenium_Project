@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-12T21:18:27 IST" name="Default suite" finished-at="2024-06-12T21:18:59 IST" duration-ms="31796">
+    <groups>
+    </groups>
+    <test started-at="2024-06-12T21:18:27 IST" name="Default test" finished-at="2024-06-12T21:18:59 IST" duration-ms="31796">
+      <class name="tests.GroceryTestPage">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.GroceryTestPage@285d851a]" started-at="2024-06-12T21:18:27 IST" name="beforeSuite" finished-at="2024-06-12T21:18:27 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.GroceryTestPage@285d851a]" started-at="2024-06-12T21:18:27 IST" name="setUp" finished-at="2024-06-12T21:18:33 IST" duration-ms="5979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGroceryPage()[pri:3, instance:tests.GroceryTestPage@285d851a]" started-at="2024-06-12T21:18:33 IST" name="testGroceryPage" finished-at="2024-06-12T21:18:57 IST" duration-ms="24137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGroceryPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.GroceryTestPage@285d851a]" started-at="2024-06-12T21:18:57 IST" name="tearDown" finished-at="2024-06-12T21:18:57 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGroceryPage status=SUCCESS method=GroceryTestPage.testGroceryPage()[pri:3, instance:tests.GroceryTestPage@285d851a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GroceryTestPage@285d851a]" started-at="2024-06-12T21:18:57 IST" name="tearDown" finished-at="2024-06-12T21:18:59 IST" duration-ms="1618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:tests.GroceryTestPage@285d851a]" started-at="2024-06-12T21:18:59 IST" name="afterSuite" finished-at="2024-06-12T21:19:00 IST" duration-ms="1182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.GroceryTestPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

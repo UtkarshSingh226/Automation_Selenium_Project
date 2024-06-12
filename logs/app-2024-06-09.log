@@ -1,0 +1,26 @@
+[INFO ] 2024-06-09 15:22:18.582 [main] TestScenario4 - Navigated to URL
+[INFO ] 2024-06-09 15:22:20.059 [main] TestScenario4 - Clicked on view cart icon successfully
+[INFO ] 2024-06-09 15:22:23.534 [main] TestScenario4 - Clicked on Flipkart Plus icon successfully
+[INFO ] 2024-06-09 15:22:23.534 [main] TestScenario4 - Successfully go back to homepage by clicking on Flipkart Plus
+[INFO ] 2024-06-09 15:22:49.348 [main] TestScenario4 - Navigated to URL
+[INFO ] 2024-06-09 15:22:49.737 [main] TestScenario4 - Click on the ClearTrip page
+[INFO ] 2024-06-09 15:22:49.737 [main] TestScenario4 - Successfully displayed the ClearTrip Page
+[INFO ] 2024-06-09 15:23:15.699 [main] TestScenario4 - Navigated to URL
+[INFO ] 2024-06-09 15:23:18.514 [main] TestScenario4 - Click on the GiftCards Page
+[INFO ] 2024-06-09 15:23:20.485 [main] TestScenario4 - Click on the wallet
+[INFO ] 2024-06-09 15:23:20.486 [main] TestScenario4 - Wallet Form is successfully shown
+[INFO ] 2024-06-09 15:23:45.746 [main] TestScenario4 - Navigated to URL
+[INFO ] 2024-06-09 15:23:47.996 [main] TestScenario4 - Click on the Cancellation Policy Page
+[INFO ] 2024-06-09 15:23:47.997 [main] TestScenario4 - Order Cancellation Page is successfully showing
+[INFO ] 2024-06-09 15:23:57.688 [main] TestScenario3 - Navigated to URL: https://www.flipkart.com/
+[ERROR] 2024-06-09 15:23:57.730 [main] TestScenario3 - Test Shopsy failed: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=125.0.6422.142)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a3e10ac69136177e28adf9d0c1142402, get {url=https://seller.flipkart.com/shopsy}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\UTKARS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58576}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58576/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3e10ac69136177e28adf9d0c1142402
+[INFO ] 2024-06-09 15:24:06.737 [main] TestScenario3 - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-09 15:24:36.203 [main] TestScenario3 - Navigated to URL: https://www.flipkart.com/

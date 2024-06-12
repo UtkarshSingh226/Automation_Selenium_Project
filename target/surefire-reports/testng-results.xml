@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-12T21:21:01 IST" name="Suite" finished-at="2024-06-12T21:31:38 IST" duration-ms="637739">
+    <groups>
+    </groups>
+    <test started-at="2024-06-12T21:21:01 IST" name="Test" finished-at="2024-06-12T21:31:38 IST" duration-ms="637739">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@1d71006f]" started-at="2024-06-12T21:24:42 IST" name="setUp" finished-at="2024-06-12T21:24:45 IST" duration-ms="2363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin(java.lang.String)[pri:4, instance:tests.LoginTest@1d71006f]" started-at="2024-06-12T21:24:45 IST" name="testLogin" data-provider="testdata" finished-at="2024-06-12T21:25:06 IST" duration-ms="21614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9452271671]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@1d71006f]" started-at="2024-06-12T21:25:06 IST" name="tearDown" finished-at="2024-06-12T21:25:08 IST" duration-ms="1531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@1d71006f]" started-at="2024-06-12T21:25:06 IST" name="tearDown" finished-at="2024-06-12T21:25:06 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=LoginTest.testLogin(java.lang.String)[pri:4, instance:tests.LoginTest@1d71006f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.TestScenario4">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TestScenario4@5b6813df]" started-at="2024-06-12T21:25:08 IST" name="setUp" finished-at="2024-06-12T21:25:11 IST" duration-ms="2775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearch(java.lang.String)[pri:14, instance:tests.TestScenario4@5b6813df]" started-at="2024-06-12T21:25:11 IST" name="testSearch" data-provider="testdata" finished-at="2024-06-12T21:25:45 IST" duration-ms="34429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iphone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestScenario4@5b6813df]" started-at="2024-06-12T21:25:45 IST" name="tearDown" finished-at="2024-06-12T21:25:47 IST" duration-ms="1623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TestScenario4@5b6813df]" started-at="2024-06-12T21:25:45 IST" name="tearDown" finished-at="2024-06-12T21:25:45 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearch status=SUCCESS method=TestScenario4.testSearch(java.lang.String)[pri:14, instance:tests.TestScenario4@5b6813df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TestScenario4@5b6813df]" started-at="2024-06-12T21:25:47 IST" name="setUp" finished-at="2024-06-12T21:25:49 IST" duration-ms="2578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testBackToTome()[pri:15, instance:tests.TestScenario4@5b6813df]" started-at="2024-06-12T21:25:49 IST" name="testBackToTome" finished-at="2024-06-12T21:26:09 IST" duration-ms="20202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBackToTome -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TestScenario4@5b6813df]" started-at="2024-06-12T21:26:09 IST" name="tearDown" finished-at="2024-06-12T21:26:09 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBackToTome status=SUCCESS method=TestScenario4.testBackToTome()[pri:15, instance:tests.TestScenario4@5b6813df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestScenario4@5b6813df]" started-at="2024-06-12T21:26:09 IST" name="tearDown" finished-at="2024-06-12T21:26:11 IST" duration-ms="1629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TestScenario4@5b6813df]" started-at="2024-06-12T21:26:11 IST" name="setUp" finished-at="2024-06-12T21:26:13 IST" duration-ms="2359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testClearTrip()[pri:16, instance:tests.TestScenario4@5b6813df]" started-at="2024-06-12T21:26:13 IST" name="testClearTrip" finished-at="2024-06-12T21:26:31 IST" duration-ms="17108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClearTrip -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TestScenario4@5b6813df]" started-at="2024-06-12T21:26:31 IST" name="tearDown" finished-at="2024-06-12T21:26:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClearTrip status=SUCCESS method=TestScenario4.testClearTrip()[pri:16, instance:tests.TestScenario4@5b6813df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestScenario4@5b6813df]" started-at="2024-06-12T21:26:31 IST" name="tearDown" finished-at="2024-06-12T21:26:32 IST" duration-ms="1571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TestScenario4@5b6813df]" started-at="2024-06-12T21:26:32 IST" name="setUp" finished-at="2024-06-12T21:26:34 IST" duration-ms="2314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGiftCards()[pri:17, instance:tests.TestScenario4@5b6813df]" started-at="2024-06-12T21:26:34 IST" name="testGiftCards" finished-at="2024-06-12T21:26:56 IST" duration-ms="21805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGiftCards -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TestScenario4@5b6813df]" started-at="2024-06-12T21:26:56 IST" name="tearDown" finished-at="2024-06-12T21:26:56 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGiftCards status=SUCCESS method=TestScenario4.testGiftCards()[pri:17, instance:tests.TestScenario4@5b6813df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestScenario4@5b6813df]" started-at="2024-06-12T21:26:56 IST" name="tearDown" finished-at="2024-06-12T21:26:58 IST" duration-ms="1363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TestScenario4@5b6813df]" started-at="2024-06-12T21:26:58 IST" name="setUp" finished-at="2024-06-12T21:27:00 IST" duration-ms="2309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCancellation()[pri:18, instance:tests.TestScenario4@5b6813df]" started-at="2024-06-12T21:27:00 IST" name="testCancellation" finished-at="2024-06-12T21:27:20 IST" duration-ms="20025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCancellation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestScenario4@5b6813df]" started-at="2024-06-12T21:27:20 IST" name="tearDown" finished-at="2024-06-12T21:27:22 IST" duration-ms="1641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TestScenario4@5b6813df]" started-at="2024-06-12T21:27:20 IST" name="tearDown" finished-at="2024-06-12T21:27:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCancellation status=SUCCESS method=TestScenario4.testCancellation()[pri:18, instance:tests.TestScenario4@5b6813df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestScenario4 -->
+      <class name="tests.SearchProduct">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SearchProduct@2552f2cb]" started-at="2024-06-12T21:30:59 IST" name="setUp" finished-at="2024-06-12T21:31:01 IST" duration-ms="2604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearch(java.lang.String)[pri:6, instance:tests.SearchProduct@2552f2cb]" started-at="2024-06-12T21:31:01 IST" name="testSearch" data-provider="testdata" finished-at="2024-06-12T21:31:37 IST" duration-ms="35356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iphone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SearchProduct@2552f2cb]" started-at="2024-06-12T21:31:37 IST" name="tearDown" finished-at="2024-06-12T21:31:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearch status=SUCCESS method=SearchProduct.testSearch(java.lang.String)[pri:6, instance:tests.SearchProduct@2552f2cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchProduct@2552f2cb]" started-at="2024-06-12T21:31:37 IST" name="tearDown" finished-at="2024-06-12T21:31:38 IST" duration-ms="1504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchProduct -->
+      <class name="tests.TestScenario3">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TestScenario3@5f2606b]" started-at="2024-06-12T21:27:22 IST" name="setUp" finished-at="2024-06-12T21:27:24 IST" duration-ms="2289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testShopsy()[pri:9, instance:tests.TestScenario3@5f2606b]" started-at="2024-06-12T21:27:24 IST" name="testShopsy" finished-at="2024-06-12T21:28:13 IST" duration-ms="49322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShopsy -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TestScenario3@5f2606b]" started-at="2024-06-12T21:28:13 IST" name="tearDown" finished-at="2024-06-12T21:28:13 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testShopsy status=SUCCESS method=TestScenario3.testShopsy()[pri:9, instance:tests.TestScenario3@5f2606b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestScenario3@5f2606b]" started-at="2024-06-12T21:28:13 IST" name="tearDown" finished-at="2024-06-12T21:28:15 IST" duration-ms="1473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TestScenario3@5f2606b]" started-at="2024-06-12T21:28:15 IST" name="setUp" finished-at="2024-06-12T21:28:17 IST" duration-ms="2162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNotification()[pri:10, instance:tests.TestScenario3@5f2606b]" started-at="2024-06-12T21:28:17 IST" name="testNotification" finished-at="2024-06-12T21:28:38 IST" duration-ms="21577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotification -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TestScenario3@5f2606b]" started-at="2024-06-12T21:28:38 IST" name="tearDown" finished-at="2024-06-12T21:28:38 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNotification status=SUCCESS method=TestScenario3.testNotification()[pri:10, instance:tests.TestScenario3@5f2606b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestScenario3@5f2606b]" started-at="2024-06-12T21:28:38 IST" name="tearDown" finished-at="2024-06-12T21:28:40 IST" duration-ms="1615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TestScenario3@5f2606b]" started-at="2024-06-12T21:28:40 IST" name="setUp" finished-at="2024-06-12T21:28:42 IST" duration-ms="2302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMyntraPage()[pri:11, instance:tests.TestScenario3@5f2606b]" started-at="2024-06-12T21:28:42 IST" name="testMyntraPage" finished-at="2024-06-12T21:29:00 IST" duration-ms="17871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMyntraPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestScenario3@5f2606b]" started-at="2024-06-12T21:29:00 IST" name="tearDown" finished-at="2024-06-12T21:29:02 IST" duration-ms="1546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TestScenario3@5f2606b]" started-at="2024-06-12T21:29:00 IST" name="tearDown" finished-at="2024-06-12T21:29:00 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMyntraPage status=SUCCESS method=TestScenario3.testMyntraPage()[pri:11, instance:tests.TestScenario3@5f2606b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TestScenario3@5f2606b]" started-at="2024-06-12T21:29:02 IST" name="setUp" finished-at="2024-06-12T21:29:04 IST" duration-ms="2269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTermsOfUseLink()[pri:12, instance:tests.TestScenario3@5f2606b]" started-at="2024-06-12T21:29:04 IST" name="testTermsOfUseLink" finished-at="2024-06-12T21:29:22 IST" duration-ms="18246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTermsOfUseLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestScenario3@5f2606b]" started-at="2024-06-12T21:29:22 IST" name="tearDown" finished-at="2024-06-12T21:29:24 IST" duration-ms="1567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TestScenario3@5f2606b]" started-at="2024-06-12T21:29:22 IST" name="tearDown" finished-at="2024-06-12T21:29:22 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTermsOfUseLink status=SUCCESS method=TestScenario3.testTermsOfUseLink()[pri:12, instance:tests.TestScenario3@5f2606b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TestScenario3@5f2606b]" started-at="2024-06-12T21:29:24 IST" name="setUp" finished-at="2024-06-12T21:29:26 IST" duration-ms="2301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testOfferZone()[pri:13, instance:tests.TestScenario3@5f2606b]" started-at="2024-06-12T21:29:26 IST" name="testOfferZone" finished-at="2024-06-12T21:29:49 IST" duration-ms="22832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOfferZone -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TestScenario3@5f2606b]" started-at="2024-06-12T21:29:49 IST" name="tearDown" finished-at="2024-06-12T21:29:49 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOfferZone status=SUCCESS method=TestScenario3.testOfferZone()[pri:13, instance:tests.TestScenario3@5f2606b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestScenario3@5f2606b]" started-at="2024-06-12T21:29:49 IST" name="tearDown" finished-at="2024-06-12T21:29:50 IST" duration-ms="1173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestScenario3 -->
+      <class name="tests.ViewCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ViewCartTest@6d1d4d7]" started-at="2024-06-12T21:23:28 IST" name="setUp" finished-at="2024-06-12T21:23:30 IST" duration-ms="2575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testViewCartPage()[pri:20, instance:tests.ViewCartTest@6d1d4d7]" started-at="2024-06-12T21:23:30 IST" name="testViewCartPage" finished-at="2024-06-12T21:23:49 IST" duration-ms="18971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewCartPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ViewCartTest@6d1d4d7]" started-at="2024-06-12T21:23:49 IST" name="tearDown" finished-at="2024-06-12T21:23:49 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testViewCartPage status=SUCCESS method=ViewCartTest.testViewCartPage()[pri:20, instance:tests.ViewCartTest@6d1d4d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ViewCartTest@6d1d4d7]" started-at="2024-06-12T21:23:49 IST" name="tearDown" finished-at="2024-06-12T21:23:51 IST" duration-ms="1501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ViewCartTest -->
+      <class name="tests.MobilePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.MobilePageTest@1ca25c47]" started-at="2024-06-12T21:21:30 IST" name="setUp" finished-at="2024-06-12T21:21:32 IST" duration-ms="2207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMobilePage()[pri:5, instance:tests.MobilePageTest@1ca25c47]" started-at="2024-06-12T21:21:32 IST" name="testMobilePage" finished-at="2024-06-12T21:21:52 IST" duration-ms="20391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMobilePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MobilePageTest@1ca25c47]" started-at="2024-06-12T21:21:52 IST" name="tearDown" finished-at="2024-06-12T21:21:54 IST" duration-ms="1654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.MobilePageTest@1ca25c47]" started-at="2024-06-12T21:21:52 IST" name="tearDown" finished-at="2024-06-12T21:21:52 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMobilePage status=SUCCESS method=MobilePageTest.testMobilePage()[pri:5, instance:tests.MobilePageTest@1ca25c47] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.MobilePageTest -->
+      <class name="tests.SignupTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SignupTest@533b266e]" started-at="2024-06-12T21:23:03 IST" name="setUp" finished-at="2024-06-12T21:23:06 IST" duration-ms="2443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSignUp()[pri:8, instance:tests.SignupTest@533b266e]" started-at="2024-06-12T21:23:06 IST" name="testSignUp" finished-at="2024-06-12T21:23:26 IST" duration-ms="20659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignupTest@533b266e]" started-at="2024-06-12T21:23:26 IST" name="tearDown" finished-at="2024-06-12T21:23:28 IST" duration-ms="1608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SignupTest@533b266e]" started-at="2024-06-12T21:23:26 IST" name="tearDown" finished-at="2024-06-12T21:23:26 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSignUp status=SUCCESS method=SignupTest.testSignUp()[pri:8, instance:tests.SignupTest@533b266e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SignupTest -->
+      <class name="tests.SellerTestPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SellerTestPage@5fcacc0]" started-at="2024-06-12T21:21:54 IST" name="setUp" finished-at="2024-06-12T21:21:56 IST" duration-ms="2326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSellerPage()[pri:7, instance:tests.SellerTestPage@5fcacc0]" started-at="2024-06-12T21:21:56 IST" name="testSellerPage" finished-at="2024-06-12T21:23:01 IST" duration-ms="64904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSellerPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SellerTestPage@5fcacc0]" started-at="2024-06-12T21:23:01 IST" name="tearDown" finished-at="2024-06-12T21:23:01 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSellerPage status=SUCCESS method=SellerTestPage.testSellerPage()[pri:7, instance:tests.SellerTestPage@5fcacc0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SellerTestPage@5fcacc0]" started-at="2024-06-12T21:23:01 IST" name="tearDown" finished-at="2024-06-12T21:23:03 IST" duration-ms="1768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SellerTestPage -->
+      <class name="tests.GroceryTestPage">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.GroceryTestPage@4a9f80d3]" started-at="2024-06-12T21:21:00 IST" name="beforeSuite" finished-at="2024-06-12T21:21:01 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.GroceryTestPage@4a9f80d3]" started-at="2024-06-12T21:21:01 IST" name="setUp" finished-at="2024-06-12T21:21:04 IST" duration-ms="3699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGroceryPage()[pri:3, instance:tests.GroceryTestPage@4a9f80d3]" started-at="2024-06-12T21:21:04 IST" name="testGroceryPage" finished-at="2024-06-12T21:21:29 IST" duration-ms="24213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGroceryPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.GroceryTestPage@4a9f80d3]" started-at="2024-06-12T21:21:29 IST" name="tearDown" finished-at="2024-06-12T21:21:29 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGroceryPage status=SUCCESS method=GroceryTestPage.testGroceryPage()[pri:3, instance:tests.GroceryTestPage@4a9f80d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GroceryTestPage@4a9f80d3]" started-at="2024-06-12T21:21:29 IST" name="tearDown" finished-at="2024-06-12T21:21:30 IST" duration-ms="1331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:tests.GroceryTestPage@4a9f80d3]" started-at="2024-06-12T21:31:38 IST" name="afterSuite" finished-at="2024-06-12T21:31:40 IST" duration-ms="1214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.GroceryTestPage -->
+      <class name="tests.TravelTestPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TravelTestPage@89ff02e]" started-at="2024-06-12T21:23:51 IST" name="setUp" finished-at="2024-06-12T21:23:53 IST" duration-ms="2208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTravelPage()[pri:19, instance:tests.TravelTestPage@89ff02e]" started-at="2024-06-12T21:23:53 IST" name="testTravelPage" finished-at="2024-06-12T21:24:14 IST" duration-ms="20448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTravelPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelTestPage@89ff02e]" started-at="2024-06-12T21:24:14 IST" name="tearDown" finished-at="2024-06-12T21:24:15 IST" duration-ms="1605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TravelTestPage@89ff02e]" started-at="2024-06-12T21:24:14 IST" name="tearDown" finished-at="2024-06-12T21:24:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTravelPage status=SUCCESS method=TravelTestPage.testTravelPage()[pri:19, instance:tests.TravelTestPage@89ff02e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TravelTestPage -->
+      <class name="tests.AddtocartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AddtocartTest@3ebff828]" started-at="2024-06-12T21:29:50 IST" name="setUp" finished-at="2024-06-12T21:29:52 IST" duration-ms="2176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearch(java.lang.String)[pri:1, instance:tests.AddtocartTest@3ebff828]" started-at="2024-06-12T21:29:52 IST" name="testSearch" data-provider="testdata" finished-at="2024-06-12T21:30:57 IST" duration-ms="64703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iphone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AddtocartTest@3ebff828]" started-at="2024-06-12T21:30:57 IST" name="tearDown" finished-at="2024-06-12T21:30:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearch status=SUCCESS method=AddtocartTest.testSearch(java.lang.String)[pri:1, instance:tests.AddtocartTest@3ebff828] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddtocartTest@3ebff828]" started-at="2024-06-12T21:30:57 IST" name="tearDown" finished-at="2024-06-12T21:30:59 IST" duration-ms="1638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddtocartTest -->
+      <class name="tests.AppliancesTestPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AppliancesTestPage@6865c751]" started-at="2024-06-12T21:24:15 IST" name="setUp" finished-at="2024-06-12T21:24:17 IST" duration-ms="2378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAppliancesPage()[pri:2, instance:tests.AppliancesTestPage@6865c751]" started-at="2024-06-12T21:24:17 IST" name="testAppliancesPage" finished-at="2024-06-12T21:24:38 IST" duration-ms="20925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppliancesPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AppliancesTestPage@6865c751]" started-at="2024-06-12T21:24:38 IST" name="tearDown" finished-at="2024-06-12T21:24:38 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAppliancesPage status=SUCCESS method=AppliancesTestPage.testAppliancesPage()[pri:2, instance:tests.AppliancesTestPage@6865c751] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AppliancesTestPage@6865c751]" started-at="2024-06-12T21:24:38 IST" name="tearDown" finished-at="2024-06-12T21:24:40 IST" duration-ms="1560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AppliancesTestPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

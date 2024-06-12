@@ -1,0 +1,323 @@
+[INFO ] 2024-06-10 13:04:33.366 [main] LoginTest - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 13:04:37.128 [main] LoginTest - Clicked Login
+[INFO ] 2024-06-10 13:04:37.211 [main] LoginTest - Entered Username: 9452271671
+[INFO ] 2024-06-10 13:04:37.330 [main] LoginTest - Clicked Submit
+[INFO ] 2024-06-10 13:04:37.331 [main] LoginTest - Test completed for value: 9452271671
+[INFO ] 2024-06-10 13:05:00.135 [main] TestScenario4 - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 13:05:00.392 [main] TestScenario4 - Enter product to search
+[INFO ] 2024-06-10 13:05:14.097 [main] TestScenario4 - Click on the search button
+[INFO ] 2024-06-10 13:05:14.419 [main] TestScenario4 - Click on the Add to compare button
+[INFO ] 2024-06-10 13:05:14.676 [main] TestScenario4 - Compare button tested successfully to compare two products.
+[INFO ] 2024-06-10 13:05:38.203 [main] TestScenario4 - Navigated to URL
+[INFO ] 2024-06-10 13:05:39.321 [main] TestScenario4 - Clicked on view cart icon successfully
+[INFO ] 2024-06-10 13:05:42.115 [main] TestScenario4 - Clicked on Flipkart Plus icon successfully
+[INFO ] 2024-06-10 13:05:42.116 [main] TestScenario4 - Successfully go back to homepage by clicking on Flipkart Plus
+[INFO ] 2024-06-10 13:06:05.493 [main] TestScenario4 - Navigated to URL
+[INFO ] 2024-06-10 13:06:05.742 [main] TestScenario4 - Click on the ClearTrip page
+[INFO ] 2024-06-10 13:06:05.742 [main] TestScenario4 - Successfully displayed the ClearTrip Page
+[INFO ] 2024-06-10 13:06:28.041 [main] TestScenario4 - Navigated to URL
+[INFO ] 2024-06-10 13:06:29.459 [main] TestScenario4 - Click on the GiftCards Page
+[INFO ] 2024-06-10 13:06:30.823 [main] TestScenario4 - Click on the wallet
+[INFO ] 2024-06-10 13:06:30.823 [main] TestScenario4 - Wallet Form is successfully shown
+[INFO ] 2024-06-10 13:06:53.732 [main] TestScenario4 - Navigated to URL
+[INFO ] 2024-06-10 13:06:54.987 [main] TestScenario4 - Click on the Cancellation Policy Page
+[INFO ] 2024-06-10 13:06:54.987 [main] TestScenario4 - Order Cancellation Page is successfully showing
+[INFO ] 2024-06-10 13:07:19.070 [main] TestScenario3 - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 13:07:44.510 [main] TestScenario3 - Navigated to Shopsy URL: https://seller.flipkart.com/shopsy
+[INFO ] 2024-06-10 13:07:44.521 [main] TestScenario3 - Test Shopsy passed
+[INFO ] 2024-06-10 13:08:06.944 [main] TestScenario3 - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 13:08:07.091 [main] TestScenario3 - Click on the dropdown where notifications are shown
+[INFO ] 2024-06-10 13:08:33.153 [main] TestScenario3 - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 13:08:33.311 [main] TestScenario3 - Click on the Myntra link
+[INFO ] 2024-06-10 13:08:55.592 [main] TestScenario3 - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 13:08:57.853 [main] TestScenario3 - Click on the Terms And Conditions Page
+[INFO ] 2024-06-10 13:09:20.183 [main] TestScenario3 - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 13:09:21.651 [main] TestScenario3 - Clicked on Appliances link
+[INFO ] 2024-06-10 13:09:22.530 [main] TestScenario3 - Clicked on Offer Zone Page link
+[INFO ] 2024-06-10 13:09:23.734 [main] TestScenario3 - Clicked on Offer Product Page link
+[INFO ] 2024-06-10 13:09:46.378 [main] SearchProduct - Launching browser
+[INFO ] 2024-06-10 13:09:46.529 [main] SearchProduct - Performed search for: iphone
+[INFO ] 2024-06-10 13:10:01.219 [main] SearchProduct - Click on the search button
+[INFO ] 2024-06-10 13:10:01.219 [main] SearchProduct - Search product successful
+[INFO ] 2024-06-10 13:10:23.346 [main] SellerTestPage - Navigated to URL: https://www.flipkart.com/
+[ERROR] 2024-06-10 13:10:33.458 [main] SellerTestPage - Error occurred during Seller Page Test: element not interactable
+  (Session info: chrome-headless-shell=125.0.6422.142)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3e05141c0f3198a0d370faa9a58b4c5b, clickElement {id=f.56E1206CF3CFBA962E941CC5F7D8CA91.d.FEF0D3192A4B09C1CCDD4B6DEB84108F.e.133}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\UTKARS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51523}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51523/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome-headless-shell on windows (3e05141c0f3198a0d370faa9a58b4c5b)] -> xpath: //a[@class="_1krdK5 _3jeYYh" and @title="Become a Seller"]]
+Session ID: 3e05141c0f3198a0d370faa9a58b4c5b
+[INFO ] 2024-06-10 13:10:55.959 [main] AppliancesTestPage - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 13:10:56.018 [main] AppliancesTestPage - Appliances link is visible
+[INFO ] 2024-06-10 13:10:57.411 [main] AppliancesTestPage - Clicked on Appliances
+[INFO ] 2024-06-10 13:11:21.504 [main] ViewCartTest - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 13:11:22.845 [main] ViewCartTest - Clicked on view cart icon
+[INFO ] 2024-06-10 13:11:45.880 [main] SignupTest - Launching browser
+[INFO ] 2024-06-10 13:11:48.112 [main] SignupTest - Click on the signup successful
+[INFO ] 2024-06-10 13:11:48.264 [main] SignupTest - Click Create new account
+[INFO ] 2024-06-10 13:11:48.433 [main] SignupTest - Enter the phone number to register
+[INFO ] 2024-06-10 13:11:48.521 [main] SignupTest - Sign up successful
+[INFO ] 2024-06-10 13:12:11.578 [main] AddtocartTest - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 13:12:11.832 [main] AddtocartTest - Entered search data: iphone
+[INFO ] 2024-06-10 13:12:25.089 [main] AddtocartTest - Clicked on search button
+[INFO ] 2024-06-10 13:12:25.303 [main] AddtocartTest - Fetched product title
+[INFO ] 2024-06-10 13:13:18.228 [main] MobilePageTest - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 13:13:20.474 [main] MobilePageTest - Clicked on Mobiles Image
+[INFO ] 2024-06-10 13:13:42.778 [main] GroceryTestPage - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 13:13:43.921 [main] GroceryTestPage - Clicked on Grocery
+[INFO ] 2024-06-10 13:13:44.126 [main] GroceryTestPage - Clicked on Current Location 
+[INFO ] 2024-06-10 13:14:36.757 [main] TravelTestPage - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 13:14:38.156 [main] TravelTestPage - Clicked on Travel Image
+[INFO ] 2024-06-10 13:14:38.459 [main] TravelTestPage - From input field is displayed
+[INFO ] 2024-06-10 13:14:38.509 [main] TravelTestPage - To input field is displayed
+[INFO ] 2024-06-10 13:14:38.570 [main] TravelTestPage - Search button is displayed
+[INFO ] 2024-06-10 13:50:03.264 [main] LoginTest - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 13:50:06.647 [main] LoginTest - Clicked Login
+[INFO ] 2024-06-10 13:50:06.804 [main] LoginTest - Entered Username: 9452271671
+[INFO ] 2024-06-10 13:50:07.036 [main] LoginTest - Clicked Submit
+[INFO ] 2024-06-10 13:50:07.036 [main] LoginTest - Test completed for value: 9452271671
+[INFO ] 2024-06-10 13:53:19.189 [main] LoginTest - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 13:53:20.534 [main] LoginTest - Clicked Login
+[INFO ] 2024-06-10 13:53:22.557 [main] LoginTest - Entered Username: 9452271671
+[INFO ] 2024-06-10 13:53:22.819 [main] LoginTest - Clicked Submit
+[INFO ] 2024-06-10 13:53:22.824 [main] LoginTest - Test completed for value: 9452271671
+[INFO ] 2024-06-10 13:56:32.952 [main] LoginTest - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 13:56:35.795 [main] LoginTest - Clicked Login
+[INFO ] 2024-06-10 13:56:36.510 [main] LoginTest - Entered Username: 9452271671
+[INFO ] 2024-06-10 13:56:36.746 [main] LoginTest - Clicked Submit
+[INFO ] 2024-06-10 13:56:36.746 [main] LoginTest - Test completed for value: 9452271671
+[INFO ] 2024-06-10 13:57:04.683 [main] TestScenario4 - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 13:57:04.918 [main] TestScenario4 - Enter product to search
+[INFO ] 2024-06-10 13:57:21.959 [main] TestScenario4 - Click on the search button
+[INFO ] 2024-06-10 13:57:22.282 [main] TestScenario4 - Click on the Add to compare button
+[INFO ] 2024-06-10 13:57:22.599 [main] TestScenario4 - Compare button tested successfully to compare two products.
+[INFO ] 2024-06-10 13:57:50.540 [main] TestScenario4 - Navigated to URL
+[INFO ] 2024-06-10 13:57:52.153 [main] TestScenario4 - Clicked on view cart icon successfully
+[INFO ] 2024-06-10 13:57:54.628 [main] TestScenario4 - Clicked on Flipkart Plus icon successfully
+[INFO ] 2024-06-10 13:57:54.630 [main] TestScenario4 - Successfully go back to homepage by clicking on Flipkart Plus
+[INFO ] 2024-06-10 13:58:04.338 [main] TestScenario4 - Navigated to URL
+[INFO ] 2024-06-10 13:58:46.738 [main] TestScenario4 - Navigated to URL
+[INFO ] 2024-06-10 13:58:48.359 [main] TestScenario4 - Click on the GiftCards Page
+[INFO ] 2024-06-10 13:58:49.852 [main] TestScenario4 - Click on the wallet
+[INFO ] 2024-06-10 13:58:49.852 [main] TestScenario4 - Wallet Form is successfully shown
+[INFO ] 2024-06-10 13:59:16.549 [main] TestScenario4 - Navigated to URL
+[INFO ] 2024-06-10 13:59:17.802 [main] TestScenario4 - Click on the Cancellation Policy Page
+[INFO ] 2024-06-10 13:59:17.802 [main] TestScenario4 - Order Cancellation Page is successfully showing
+[INFO ] 2024-06-10 13:59:43.805 [main] TestScenario3 - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 14:00:15.832 [main] TestScenario3 - Navigated to Shopsy URL: https://seller.flipkart.com/shopsy
+[INFO ] 2024-06-10 14:00:15.857 [main] TestScenario3 - Test Shopsy passed
+[INFO ] 2024-06-10 14:00:41.954 [main] TestScenario3 - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 14:00:42.227 [main] TestScenario3 - Click on the dropdown where notifications are shown
+[INFO ] 2024-06-10 14:01:09.788 [main] TestScenario3 - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 14:01:10.092 [main] TestScenario3 - Click on the Myntra link
+[INFO ] 2024-06-10 14:01:38.252 [main] TestScenario3 - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 14:01:39.997 [main] TestScenario3 - Click on the Terms And Conditions Page
+[INFO ] 2024-06-10 14:02:05.822 [main] TestScenario3 - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 14:02:08.323 [main] TestScenario3 - Clicked on Appliances link
+[INFO ] 2024-06-10 14:02:08.869 [main] TestScenario3 - Clicked on Offer Zone Page link
+[INFO ] 2024-06-10 14:02:11.381 [main] TestScenario3 - Clicked on Offer Product Page link
+[INFO ] 2024-06-10 14:02:37.061 [main] SearchProduct - Launching browser
+[INFO ] 2024-06-10 14:02:37.312 [main] SearchProduct - Performed search for: iphone
+[INFO ] 2024-06-10 14:02:53.962 [main] SearchProduct - Click on the search button
+[INFO ] 2024-06-10 14:02:53.962 [main] SearchProduct - Search product successful
+[INFO ] 2024-06-10 14:03:18.825 [main] SellerTestPage - Navigated to URL: https://www.flipkart.com/
+[ERROR] 2024-06-10 14:03:28.944 [main] SellerTestPage - Error occurred during Seller Page Test: element not interactable
+  (Session info: chrome=125.0.6422.142)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [89519f84fd43e53c166a3d360c72cd62, clickElement {id=f.B96512175DFBF6316D505BC8ACB9FDE9.d.BC716370BD3A4D23B72EE39D30A3D04C.e.110}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\UTKARS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54161}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54161/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (89519f84fd43e53c166a3d360c72cd62)] -> xpath: //a[@class="_1krdK5 _3jeYYh" and @title="Become a Seller"]]
+Session ID: 89519f84fd43e53c166a3d360c72cd62
+[INFO ] 2024-06-10 14:03:55.232 [main] AppliancesTestPage - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 14:03:55.317 [main] AppliancesTestPage - Appliances link is visible
+[INFO ] 2024-06-10 14:03:56.846 [main] AppliancesTestPage - Clicked on Appliances
+[INFO ] 2024-06-10 14:04:22.936 [main] ViewCartTest - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 14:04:24.309 [main] ViewCartTest - Clicked on view cart icon
+[INFO ] 2024-06-10 14:04:50.571 [main] SignupTest - Launching browser
+[INFO ] 2024-06-10 14:04:51.912 [main] SignupTest - Click on the signup successful
+[INFO ] 2024-06-10 14:04:53.419 [main] SignupTest - Click Create new account
+[INFO ] 2024-06-10 14:04:53.718 [main] SignupTest - Enter the phone number to register
+[INFO ] 2024-06-10 14:04:53.858 [main] SignupTest - Sign up successful
+[INFO ] 2024-06-10 14:05:20.803 [main] AddtocartTest - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 14:05:21.221 [main] AddtocartTest - Entered search data: iphone
+[INFO ] 2024-06-10 14:05:41.311 [main] AddtocartTest - Clicked on search button
+[INFO ] 2024-06-10 14:05:41.681 [main] AddtocartTest - Fetched product title
+[INFO ] 2024-06-10 14:06:38.820 [main] MobilePageTest - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 14:06:41.489 [main] MobilePageTest - Clicked on Mobiles Image
+[INFO ] 2024-06-10 14:07:07.695 [main] GroceryTestPage - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 14:07:09.240 [main] GroceryTestPage - Clicked on Grocery
+[INFO ] 2024-06-10 14:07:10.961 [main] GroceryTestPage - Clicked on Current Location 
+[INFO ] 2024-06-10 14:07:14.182 [main] GroceryTestPage - Clicked on Staples
+[INFO ] 2024-06-10 14:07:15.947 [main] GroceryTestPage - Added Item to Cart
+[INFO ] 2024-06-10 14:07:16.202 [main] GroceryTestPage - Viewed Cart Item
+[INFO ] 2024-06-10 14:07:43.327 [main] TravelTestPage - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 14:07:44.508 [main] TravelTestPage - Clicked on Travel Image
+[INFO ] 2024-06-10 14:07:45.034 [main] TravelTestPage - From input field is displayed
+[INFO ] 2024-06-10 14:07:45.103 [main] TravelTestPage - To input field is displayed
+[INFO ] 2024-06-10 14:07:45.176 [main] TravelTestPage - Search button is displayed
+[INFO ] 2024-06-10 20:54:50.167 [main] LoginTest - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 20:54:53.894 [main] LoginTest - Clicked Login
+[INFO ] 2024-06-10 20:55:19.889 [main] TestScenario4 - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 20:55:46.310 [main] TestScenario4 - Navigated to URL
+[INFO ] 2024-06-10 20:55:48.473 [main] TestScenario4 - Clicked on view cart icon successfully
+[INFO ] 2024-06-10 20:55:52.302 [main] TestScenario4 - Clicked on Flipkart Plus icon successfully
+[INFO ] 2024-06-10 20:55:52.302 [main] TestScenario4 - Successfully go back to homepage by clicking on Flipkart Plus
+[INFO ] 2024-06-10 20:56:18.448 [main] TestScenario4 - Navigated to URL
+[INFO ] 2024-06-10 20:56:18.916 [main] TestScenario4 - Click on the ClearTrip page
+[INFO ] 2024-06-10 20:56:18.917 [main] TestScenario4 - Successfully displayed the ClearTrip Page
+[INFO ] 2024-06-10 20:56:45.210 [main] TestScenario4 - Navigated to URL
+[INFO ] 2024-06-10 20:56:47.720 [main] TestScenario4 - Click on the GiftCards Page
+[INFO ] 2024-06-10 20:56:50.367 [main] TestScenario4 - Click on the wallet
+[INFO ] 2024-06-10 20:56:50.368 [main] TestScenario4 - Wallet Form is successfully shown
+[INFO ] 2024-06-10 20:57:04.000 [main] TestScenario4 - Navigated to URL
+[INFO ] 2024-06-10 20:57:39.548 [main] SearchProduct - Launching browser
+[ERROR] 2024-06-10 20:57:39.608 [main] SearchProduct - Error occurred during search: Keys to send should be a not null CharSequence
+[INFO ] 2024-06-10 21:03:28.980 [main] TestScenario4 - Navigated to URL
+[INFO ] 2024-06-10 21:03:30.561 [main] TestScenario4 - Clicked on view cart icon successfully
+[INFO ] 2024-06-10 21:03:33.632 [main] TestScenario4 - Clicked on Flipkart Plus icon successfully
+[INFO ] 2024-06-10 21:03:33.632 [main] TestScenario4 - Successfully go back to homepage by clicking on Flipkart Plus
+[INFO ] 2024-06-10 21:03:59.979 [main] TestScenario4 - Navigated to URL
+[INFO ] 2024-06-10 21:04:00.401 [main] TestScenario4 - Click on the ClearTrip page
+[INFO ] 2024-06-10 21:04:00.402 [main] TestScenario4 - Successfully displayed the ClearTrip Page
+[INFO ] 2024-06-10 21:04:26.594 [main] TestScenario4 - Navigated to URL
+[INFO ] 2024-06-10 21:04:54.142 [main] TestScenario4 - Navigated to URL
+[INFO ] 2024-06-10 21:04:55.916 [main] TestScenario4 - Click on the Cancellation Policy Page
+[INFO ] 2024-06-10 21:04:55.916 [main] TestScenario4 - Order Cancellation Page is successfully showing
+[INFO ] 2024-06-10 21:05:22.074 [main] TestScenario3 - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 21:05:53.827 [main] TestScenario3 - Navigated to Shopsy URL: https://seller.flipkart.com/shopsy
+[INFO ] 2024-06-10 21:05:53.866 [main] TestScenario3 - Test Shopsy passed
+[INFO ] 2024-06-10 21:06:19.333 [main] TestScenario3 - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 21:06:19.622 [main] TestScenario3 - Click on the dropdown where notifications are shown
+[INFO ] 2024-06-10 21:06:21.677 [main] TestScenario3 - All the notifications are shown
+[INFO ] 2024-06-10 21:06:47.906 [main] TestScenario3 - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 21:06:48.251 [main] TestScenario3 - Click on the Myntra link
+[INFO ] 2024-06-10 21:07:16.915 [main] TestScenario3 - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 21:07:18.260 [main] TestScenario3 - Click on the Terms And Conditions Page
+[INFO ] 2024-06-10 21:07:44.116 [main] TestScenario3 - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 21:07:45.813 [main] TestScenario3 - Clicked on Appliances link
+[INFO ] 2024-06-10 21:07:46.090 [main] TestScenario3 - Clicked on Offer Zone Page link
+[INFO ] 2024-06-10 21:07:47.623 [main] TestScenario3 - Clicked on Offer Product Page link
+[INFO ] 2024-06-10 21:08:15.697 [main] SellerTestPage - Navigated to URL: https://www.flipkart.com/
+[ERROR] 2024-06-10 21:08:25.863 [main] SellerTestPage - Error occurred during Seller Page Test: element not interactable
+  (Session info: chrome=125.0.6422.142)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e9c4cbba95b2580de41c71ba2943275e, clickElement {id=f.8CC4BD74B28AD1B322E98EA27E3F2426.d.32A26012905F8F0927168F9CFCCD0DC3.e.80}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\UTKARS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52106}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52106/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e9c4cbba95b2580de41c71ba2943275e)] -> xpath: //a[@class="_1krdK5 _3jeYYh" and @title="Become a Seller"]]
+Session ID: e9c4cbba95b2580de41c71ba2943275e
+[INFO ] 2024-06-10 21:08:52.628 [main] AppliancesTestPage - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 21:08:52.717 [main] AppliancesTestPage - Appliances link is visible
+[INFO ] 2024-06-10 21:08:54.635 [main] AppliancesTestPage - Clicked on Appliances
+[INFO ] 2024-06-10 21:09:22.457 [main] ViewCartTest - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 21:09:24.691 [main] ViewCartTest - Clicked on view cart icon
+[INFO ] 2024-06-10 21:09:50.317 [main] SignupTest - Launching browser
+[INFO ] 2024-06-10 21:09:51.602 [main] SignupTest - Click on the signup successful
+[INFO ] 2024-06-10 21:09:53.408 [main] SignupTest - Click Create new account
+[INFO ] 2024-06-10 21:09:53.665 [main] SignupTest - Enter the phone number to register
+[INFO ] 2024-06-10 21:09:53.827 [main] SignupTest - Sign up successful
+[INFO ] 2024-06-10 21:10:21.422 [main] MobilePageTest - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 21:11:18.036 [main] GroceryTestPage - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 21:11:21.058 [main] GroceryTestPage - Clicked on Grocery
+[INFO ] 2024-06-10 21:11:21.830 [main] GroceryTestPage - Clicked on Current Location 
+[INFO ] 2024-06-10 21:11:24.780 [main] GroceryTestPage - Clicked on Staples
+[INFO ] 2024-06-10 21:11:26.327 [main] GroceryTestPage - Added Item to Cart
+[INFO ] 2024-06-10 21:12:15.593 [main] TravelTestPage - Navigated to URL: https://www.flipkart.com/
+[ERROR] 2024-06-10 21:12:35.774 [main] TravelTestPage - Error occurred during Travel Page Test: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (30ac3608a097d47b9b7053ef4f37ebe4)] -> xpath: //img[@alt="Travel"]] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\UTKARS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52457}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52457/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 30ac3608a097d47b9b7053ef4f37ebe4
+[INFO ] 2024-06-10 21:55:07.661 [main] LoginTest - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 21:55:11.249 [main] LoginTest - Clicked Login
+[INFO ] 2024-06-10 21:55:11.542 [main] LoginTest - Entered Username: 9452271671
+[INFO ] 2024-06-10 21:55:11.807 [main] LoginTest - Clicked Submit
+[INFO ] 2024-06-10 21:55:11.807 [main] LoginTest - Test completed for value: 9452271671
+[INFO ] 2024-06-10 21:57:04.792 [main] TravelTestPage - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 21:57:06.910 [main] TravelTestPage - Clicked on Travel Image
+[INFO ] 2024-06-10 21:57:07.282 [main] TravelTestPage - From input field is displayed
+[INFO ] 2024-06-10 21:57:07.335 [main] TravelTestPage - To input field is displayed
+[INFO ] 2024-06-10 21:57:07.376 [main] TravelTestPage - Search button is displayed
+[INFO ] 2024-06-10 21:58:16.824 [main] LoginTest - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 21:58:18.197 [main] LoginTest - Clicked Login
+[INFO ] 2024-06-10 21:58:19.651 [main] LoginTest - Entered Username: 9452271671
+[INFO ] 2024-06-10 21:58:19.875 [main] LoginTest - Clicked Submit
+[INFO ] 2024-06-10 21:58:19.875 [main] LoginTest - Test completed for value: 9452271671
+[INFO ] 2024-06-10 21:58:45.932 [main] TestScenario4 - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 21:58:46.192 [main] TestScenario4 - Enter product to search
+[INFO ] 2024-06-10 21:59:04.170 [main] TestScenario4 - Click on the search button
+[INFO ] 2024-06-10 21:59:04.551 [main] TestScenario4 - Click on the Add to compare button
+[INFO ] 2024-06-10 21:59:04.825 [main] TestScenario4 - Compare button tested successfully to compare two products.
+[INFO ] 2024-06-10 21:59:34.949 [main] TestScenario4 - Navigated to URL
+[INFO ] 2024-06-10 21:59:36.247 [main] TestScenario4 - Clicked on view cart icon successfully
+[INFO ] 2024-06-10 21:59:39.012 [main] TestScenario4 - Clicked on Flipkart Plus icon successfully
+[INFO ] 2024-06-10 21:59:39.013 [main] TestScenario4 - Successfully go back to homepage by clicking on Flipkart Plus
+[INFO ] 2024-06-10 22:00:05.100 [main] TestScenario4 - Navigated to URL
+[INFO ] 2024-06-10 22:00:05.482 [main] TestScenario4 - Click on the ClearTrip page
+[INFO ] 2024-06-10 22:00:05.482 [main] TestScenario4 - Successfully displayed the ClearTrip Page
+[INFO ] 2024-06-10 22:00:30.149 [main] TestScenario4 - Navigated to URL
+[INFO ] 2024-06-10 22:00:31.829 [main] TestScenario4 - Click on the GiftCards Page
+[INFO ] 2024-06-10 22:00:33.145 [main] TestScenario4 - Click on the wallet
+[INFO ] 2024-06-10 22:00:33.146 [main] TestScenario4 - Wallet Form is successfully shown
+[INFO ] 2024-06-10 22:00:59.499 [main] TestScenario4 - Navigated to URL
+[INFO ] 2024-06-10 22:01:00.928 [main] TestScenario4 - Click on the Cancellation Policy Page
+[INFO ] 2024-06-10 22:01:00.929 [main] TestScenario4 - Order Cancellation Page is successfully showing
+[INFO ] 2024-06-10 22:01:26.198 [main] SearchProduct - Launching browser
+[INFO ] 2024-06-10 22:01:26.441 [main] SearchProduct - Performed search for: iphone
+[INFO ] 2024-06-10 22:01:43.420 [main] SearchProduct - Click on the search button
+[INFO ] 2024-06-10 22:01:43.421 [main] SearchProduct - Search product successful
+[INFO ] 2024-06-10 22:01:53.253 [main] TestScenario3 - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 22:02:40.637 [main] TestScenario3 - Navigated to Shopsy URL: https://seller.flipkart.com/shopsy
+[INFO ] 2024-06-10 22:02:40.679 [main] TestScenario3 - Test Shopsy passed
+[INFO ] 2024-06-10 22:03:06.671 [main] TestScenario3 - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 22:03:07.015 [main] TestScenario3 - Click on the dropdown where notifications are shown
+[INFO ] 2024-06-10 22:03:45.778 [main] TestScenario3 - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 22:03:46.234 [main] TestScenario3 - Click on the Myntra link
+[INFO ] 2024-06-10 22:04:12.102 [main] TestScenario3 - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 22:04:14.815 [main] TestScenario3 - Click on the Terms And Conditions Page
+[INFO ] 2024-06-10 22:04:41.380 [main] TestScenario3 - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 22:04:42.864 [main] TestScenario3 - Clicked on Appliances link
+[INFO ] 2024-06-10 22:04:43.276 [main] TestScenario3 - Clicked on Offer Zone Page link
+[INFO ] 2024-06-10 22:04:44.677 [main] TestScenario3 - Clicked on Offer Product Page link
+[INFO ] 2024-06-10 22:05:10.457 [main] SellerTestPage - Navigated to URL: https://www.flipkart.com/
+[ERROR] 2024-06-10 22:05:20.591 [main] SellerTestPage - Error occurred during Seller Page Test: element not interactable
+  (Session info: chrome=125.0.6422.142)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f57c7b097d0a8f0b3c5195beba42b3f6, clickElement {id=f.98BC667A71155FAB6759FBCFFBA450BF.d.5BB7E041F00C65FC0AC730F307DC3AC0.e.138}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\UTKARS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53981}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53981/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f57c7b097d0a8f0b3c5195beba42b3f6)] -> xpath: //a[@class="_1krdK5 _3jeYYh" and @title="Become a Seller"]]
+Session ID: f57c7b097d0a8f0b3c5195beba42b3f6
+[INFO ] 2024-06-10 22:05:48.333 [main] AppliancesTestPage - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 22:05:48.412 [main] AppliancesTestPage - Appliances link is visible
+[INFO ] 2024-06-10 22:05:50.224 [main] AppliancesTestPage - Clicked on Appliances
+[INFO ] 2024-06-10 22:06:15.581 [main] ViewCartTest - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 22:06:16.682 [main] ViewCartTest - Clicked on view cart icon
+[INFO ] 2024-06-10 22:06:42.119 [main] SignupTest - Launching browser
+[INFO ] 2024-06-10 22:06:43.219 [main] SignupTest - Click on the signup successful
+[INFO ] 2024-06-10 22:06:44.312 [main] SignupTest - Click Create new account
+[INFO ] 2024-06-10 22:06:44.466 [main] SignupTest - Enter the phone number to register
+[INFO ] 2024-06-10 22:06:44.534 [main] SignupTest - Sign up successful
+[INFO ] 2024-06-10 22:07:09.344 [main] AddtocartTest - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 22:07:09.542 [main] AddtocartTest - Entered search data: iphone
+[INFO ] 2024-06-10 22:07:25.861 [main] AddtocartTest - Clicked on search button
+[INFO ] 2024-06-10 22:07:26.090 [main] AddtocartTest - Fetched product title
+[INFO ] 2024-06-10 22:08:24.520 [main] MobilePageTest - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 22:08:31.664 [main] MobilePageTest - Clicked on Mobiles Image
+[INFO ] 2024-06-10 22:08:56.661 [main] GroceryTestPage - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 22:08:58.064 [main] GroceryTestPage - Clicked on Grocery
+[INFO ] 2024-06-10 22:08:58.975 [main] GroceryTestPage - Clicked on Current Location 
+[INFO ] 2024-06-10 22:09:00.733 [main] GroceryTestPage - Clicked on Staples
+[INFO ] 2024-06-10 22:09:02.309 [main] GroceryTestPage - Added Item to Cart
+[INFO ] 2024-06-10 22:10:05.070 [main] TravelTestPage - Navigated to URL: https://www.flipkart.com/
+[INFO ] 2024-06-10 22:10:11.728 [main] TravelTestPage - Clicked on Travel Image
+[INFO ] 2024-06-10 22:10:12.182 [main] TravelTestPage - From input field is displayed
+[INFO ] 2024-06-10 22:10:12.228 [main] TravelTestPage - To input field is displayed
+[INFO ] 2024-06-10 22:10:12.257 [main] TravelTestPage - Search button is displayed
