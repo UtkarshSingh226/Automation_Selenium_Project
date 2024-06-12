@@ -13,7 +13,7 @@ pipeline {
     stages { // Defines stages of the pipeline
         stage('Build') { // First stage: Build
             steps { // Steps to be executed in this stage
-                bat 'mvn clean install' // Executes Maven clean command to build the project
+                bat 'mvn clean' // Executes Maven clean command to build the project
             }
         }
 
