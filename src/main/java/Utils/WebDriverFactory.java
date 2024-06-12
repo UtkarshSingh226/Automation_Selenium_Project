@@ -24,7 +24,7 @@ public class WebDriverFactory {
             WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
             // Uncomment the line below to run Chrome in headless mode
-            // options.addArguments("--headless");
+            options.addArguments("--headless");
             driver = new ChromeDriver(options);
         } else if (browserName.equalsIgnoreCase("ie") || browserName.equalsIgnoreCase("internet explorer")) {
             // Setup InternetExplorerDriver using WebDriverManager
