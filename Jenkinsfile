@@ -17,14 +17,19 @@ pipeline {
             }
         }
 
-        stage('Test - Chrome') { // Second stage: Test on Chrome
+        stage('Test - IE') { // Second stage: Test on Internet Explorer
             environment { // Defines environment variables for this stage
-                BROWSER = 'chrome' // Specifies Chrome as the browser for testing
+                BROWSER = 'ie' // Specifies Internet Explorer as the browser for testing
+                IE_DRIVER_PATH = 'C:\\Users\\utkarshsingh01\\Downloads\\IEDriverServer_x64_4.14.0\\IEDriverServer.exe' // Path to the IEDriverServer executable
             }
             steps { // Steps to be executed in this stage
                 script {
                     try {
-                        bat 'mvn test -Dbrowser=chrome' // Executes Maven test command with Chrome as the browser
+                        // Set environment variables for IEDriverServer
+                        bat "set webdriver.ie.driver=%IE_DRIVER_PATH%"
+
+                        // Executes Maven test command with IE as the browser
+                        bat 'mvn test -Dbrowser=ie'
                     } catch (e) {
                         unstable('Tests failed!') // Sets the build status to unstable if tests fail
                         echo "Tests failed" // Outputs a message indicating test failure
