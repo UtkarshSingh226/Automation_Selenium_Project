@@ -1,8 +1,13 @@
 pipeline {
     agent any
+    
     tools {
-        maven "mvn"
-        jdk 'JDK11'
+        maven "mvn" // Maven tool named 'mvn'
+        jdk 'JDK11' // JDK installation named 'JDK11'
+    }
+    
+    environment {
+        CHROME_BIN = 'C:\\Users\\utkarshsingh01\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe' // Path to Chrome binary
     }
     
     stages {
@@ -12,19 +17,28 @@ pipeline {
                 bat 'mvn clean'
             }
         }
+        
         stage('Test') {
             steps {
+                // Set up WebDriverManager to handle browser drivers
+                script {
+                    def driverManager = new io.github.bonigarcia.wdm.WebDriverManager()
+                    driverManager.setupChrome()
+                }
+                
                 // Run tests
                 bat 'mvn test'
             }
         }
+        
         stage('Deploy') {
             steps {
                 // Placeholder for deployment steps
-                // Replace this with your deployment script or commands
                 echo 'Deploying the application...'
+                // Add actual deployment commands/scripts here
             }
         }
+        
         stage('Clean Up') {
             steps {
                 // Clean up any temporary files or resources
