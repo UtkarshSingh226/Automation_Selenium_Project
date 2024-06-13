@@ -4,9 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class WebDriverFactory {
     private static WebDriver driver = null;
@@ -17,18 +15,12 @@ public class WebDriverFactory {
     }
 
     // Method to initialize the WebDriver based on the browser name
-    @SuppressWarnings("deprecation")
     public WebDriver initializeDriver(String browserName) {
         if (browserName.equalsIgnoreCase("chrome")) {
-            // Setup ChromeDriver using WebDriverManager
-            WebDriverManager.chromedriver().setup();
-            ChromeOptions options = new ChromeOptions();
-            // Uncomment the line below to run Chrome in headless mode
-            options.addArguments("--headless");
-            driver = new ChromeDriver(options);
+            System.setProperty("webdriver.chrome.driver", "C:\\Users\\utkarshsingh01\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+            driver = new ChromeDriver();
         } else if (browserName.equalsIgnoreCase("ie") || browserName.equalsIgnoreCase("internet explorer")) {
-            // Setup InternetExplorerDriver using WebDriverManager
-            WebDriverManager.iedriver().setup();
+            System.setProperty("webdriver.ie.driver", "C:\\Users\\utkarshsingh01\\Downloads\\IEDriverServer_x64_4.14.0\\IEDriverServer.exe");
             driver = new InternetExplorerDriver();
         } else {
             throw new IllegalArgumentException("Invalid browser name provided");
