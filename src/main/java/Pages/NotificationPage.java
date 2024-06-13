@@ -19,7 +19,7 @@ public class NotificationPage {
     private WebElement moreHelpDropdown;
     
     // WebElement for the "Notification Preferences" link
-    @FindBy(xpath = "//li[@class=\"AT0fUR\" and text()=\"Notification Preferences\"]")
+    @FindBy(xpath = "//*[@id=\"container\"]/div/div[1]/div/div/div/div/div[1]/div/div[1]/div/div[1]/div[1]/header/div[2]/div[5]/div/div/div/ul/a[1]")
     private WebElement notificationPreferencesImage;
 
     // Constructor
