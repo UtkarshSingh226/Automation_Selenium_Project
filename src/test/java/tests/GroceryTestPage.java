@@ -22,9 +22,6 @@ public class GroceryTestPage extends TestBase {
     // Test method to verify Grocery page functionality
     @Test(priority = 3, enabled = true)
     public void testGroceryPage() {
-    	// Check if test execution is required
-        ReadXLSdata.checkTestExecution("testGroceryPage");
-    	
         // Create Extent test for reporting
         test = extent.createTest("Grocery Page Test");
 
