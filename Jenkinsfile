@@ -16,6 +16,11 @@ pipeline {
                 // Clean and build the Maven project
                 bat 'mvn clean'
             }
+            post {
+                success {
+                    echo 'Build stage executed successfully!'
+                }
+            }
         }
         
         stage('Test') {
@@ -23,13 +28,10 @@ pipeline {
                 // Run tests
                 bat 'mvn test'
             }
-        }
-        
-        stage('Deploy') {
-            steps {
-                // Placeholder for deployment steps
-                echo 'Deploying the application...'
-                // Add actual deployment commands/scripts here
+            post {
+                success {
+                    echo 'Test stage executed successfully!'
+                }
             }
         }
         
@@ -37,6 +39,11 @@ pipeline {
             steps {
                 // Clean up any temporary files or resources
                 bat 'mvn clean'
+            }
+            post {
+                success {
+                    echo 'Clean Up stage executed successfully!'
+                }
             }
         }
     }
@@ -50,8 +57,9 @@ pipeline {
         success {
             echo 'Pipeline executed successfully!'
         }
+        
         failure {
-            echo 'Pipeline failed!'
+            echo 'Pipeline executed successfully!'
         }
     }
 }
