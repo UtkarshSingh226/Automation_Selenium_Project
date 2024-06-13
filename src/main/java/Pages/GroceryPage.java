@@ -15,7 +15,7 @@ public class GroceryPage {
     WebDriverWait wait;
 
     // WebElement for grocery image
-    @FindBy(css = "img._2puWtW._3a3qyb")
+    @FindBy(xpath = "//*[@id=\"container\"]/div/div[1]/div/div/div/div/div[1]/div/div[1]/div/div[2]/div[1]/div/div[1]/div/div/div/div/div[1]/a[10]/div/div/div/div/img")
     private WebElement groceryImage;
 
     // WebElement for current location button
