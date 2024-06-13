@@ -2,46 +2,68 @@ pipeline {
     agent any
     
     tools {
-        maven "mvn" // Maven tool named 'mvn'
-        jdk 'JDK11' // JDK installation named 'JDK11'
+        maven "mvn"
+        jdk 'JDK11'
     }
     
     environment {
-        CHROME_BIN = 'C:\\Users\\utkarshsingh01\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe' // Path to Chrome binary
+        CHROME_BIN = 'C:\\Users\\utkarshsingh01\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe' // Example path to Chrome binary
     }
     
     stages {
         stage('Build') {
             steps {
-                // Clean and build the Maven project
-                bat 'mvn clean'
+                bat 'mvn clean package'
             }
         }
         
-        stage('Test') {
+        stage('Test - Chrome') {
             steps {
-                // Set up WebDriverManager to handle browser drivers
                 script {
-                    def driverManager = new io.github.bonigarcia.wdm.WebDriverManager()
-                    driverManager.setupChrome()
+                    // Set up WebDriverManager for Chrome
+                    def factory = new Utils.WebDriverFactory()
+                    def driver = factory.initializeDriver('chrome')
+                    
+                    try {
+                        // Execute your test commands using the WebDriver instance
+                        driver.get('https://example.com')
+                        // Perform test actions...
+                    } finally {
+                        // Quit WebDriver instance
+                        driver.quit()
+                    }
                 }
-                
-                // Run tests
-                bat 'mvn test'
+            }
+        }
+        
+        stage('Test - IE') {
+            steps {
+                script {
+                    // Set up WebDriverManager for Internet Explorer
+                    def factory = new Utils.WebDriverFactory()
+                    def driver = factory.initializeDriver('ie')
+                    
+                    try {
+                        // Execute your test commands using the WebDriver instance
+                        driver.get('https://example.com')
+                        // Perform test actions...
+                    } finally {
+                        // Quit WebDriver instance
+                        driver.quit()
+                    }
+                }
             }
         }
         
         stage('Deploy') {
             steps {
-                // Placeholder for deployment steps
                 echo 'Deploying the application...'
-                // Add actual deployment commands/scripts here
+                // Add deployment steps if applicable
             }
         }
         
         stage('Clean Up') {
             steps {
-                // Clean up any temporary files or resources
                 bat 'mvn clean'
             }
         }
