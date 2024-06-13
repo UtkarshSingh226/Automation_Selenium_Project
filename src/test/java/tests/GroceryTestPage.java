@@ -12,6 +12,7 @@ import com.aventstack.extentreports.Status;
 import Pages.GroceryPage;
 import Pages.TestBase;
 import Utils.ConfigReader;
+import Utils.ReadXLSdata;
 
 public class GroceryTestPage extends TestBase {
     // Initialize Logger
@@ -21,6 +22,9 @@ public class GroceryTestPage extends TestBase {
     // Test method to verify Grocery page functionality
     @Test(priority = 3, enabled = true)
     public void testGroceryPage() {
+    	// Check if test execution is required
+        ReadXLSdata.checkTestExecution("testGroceryPage");
+    	
         // Create Extent test for reporting
         test = extent.createTest("Grocery Page Test");
 
@@ -66,7 +70,7 @@ public class GroceryTestPage extends TestBase {
             logger.info("Viewed Cart Item");
 
             // Add an assertion to verify item added to cart
-            Assert.assertFalse(groceryPage.isItemAdded(), "Item was not added to the cart.");
+            Assert.assertTrue(groceryPage.isItemAdded(), "Item was not added to the cart.");
         } catch (Exception e) {
             // Log any exceptions during the test
             logger.error("Error occurred during Grocery Page Test: " + e.getMessage());
