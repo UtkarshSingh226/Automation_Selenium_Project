@@ -15,7 +15,7 @@ public class AppliancesPage {
     private WebDriverWait wait;
     
     // Locators to test appliances page
-    @FindBy(xpath = "//img[@alt=\"Appliances\"]")
+    @FindBy(xpath = "//*[@id=\"container\"]/div/div[1]/div/div/div/div/div[1]/div/div[1]/div/div[2]/div[1]/div/div[1]/div/div/div/div/div[1]/a[3]/div/div/div/div/img")
     private WebElement appliancesLink;
     
     @FindBy(xpath = "//img[@class=\"xTaogf _3iTqAS\" and @alt=\"SDF\"]")
@@ -28,7 +28,7 @@ public class AppliancesPage {
     private WebElement shareButton;
     
     // Locators for testcase Offerzone
-    @FindBy(xpath= "//a[@class=\"TSD49J\" and text()=\"Offer Zone\"]")
+    @FindBy(xpath= "//*[@id=\"container\"]/div/div[2]/div/div/a[2]")
     private WebElement offerZoneLink;
     
     @FindBy(xpath = "//img[@alt='Apple iPads (Shop Now!)']")
