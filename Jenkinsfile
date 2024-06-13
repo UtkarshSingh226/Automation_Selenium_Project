@@ -21,7 +21,7 @@ pipeline {
             steps { // Steps to be executed in this stage
                 script {
                     def chromeBinary = 'C:\\Users\\utkarshsingh01\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe' // Provide the actual path to chrome.exe
-                    def driverPath = 'C:\Users\\utkarshsingh01\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe' // Provide the actual path to chromedriver.exe
+                    def driverPath = 'C:\\Users\\utkarshsingh01\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe' // Provide the actual path to chromedriver.exe
 
                     try {
                         // Set environment variables for ChromeDriver and Chrome binary
