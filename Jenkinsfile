@@ -14,18 +14,12 @@ pipeline {
         stage('Build') {
             steps {
                 // Clean and build the Maven project
-                bat 'mvn clean package'
+                bat 'mvn clean'
             }
         }
         
         stage('Test') {
             steps {
-                // Set up WebDriverManager to handle browser drivers
-                script {
-                    def driverManager = new io.github.bonigarcia.wdm.WebDriverManager()
-                    driverManager.setupChrome()
-                }
-                
                 // Run tests
                 bat 'mvn test'
             }
