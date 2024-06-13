@@ -20,7 +20,7 @@ public class AddtocartTest extends TestBase {
     AddToCart addToCartPage;
 
     // Test method to verify adding a product to the cart
-    @Test(dataProviderClass = ReadXLSdata.class, dataProvider = "testdata", priority = 1, enabled = true)
+    @Test(priority = 1, enabled = true,dataProviderClass = ReadXLSdata.class, dataProvider = "testdata")
     public void testSearch(String searchdata) {
         // Create Extent test for reporting
         test = extent.createTest("Add to Cart Test");
