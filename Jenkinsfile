@@ -17,19 +17,19 @@ pipeline {
             }
         }
 
-        stage('Test - IE') { // Second stage: Test on Internet Explorer
-            environment { // Defines environment variables for this stage
-                BROWSER = 'ie' // Specifies Internet Explorer as the browser for testing
-                IE_DRIVER_PATH = 'C:\\Users\\utkarshsingh01\\Downloads\\IEDriverServer_x64_4.14.0\\IEDriverServer.exe' // Path to the IEDriverServer executable
-            }
+        stage('Test - Chrome') { // Second stage: Test on Chrome
             steps { // Steps to be executed in this stage
                 script {
-                    try {
-                        // Set environment variables for IEDriverServer
-                        bat "set webdriver.ie.driver=%IE_DRIVER_PATH%"
+                    def chromeBinary = 'C:\\Users\\utkarshsingh01\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe' // Provide the actual path to chrome.exe
+                    def driverPath = 'C:\Users\\utkarshsingh01\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe' // Provide the actual path to chromedriver.exe
 
-                        // Executes Maven test command with IE as the browser
-                        bat 'mvn test -Dbrowser=ie'
+                    try {
+                        // Set environment variables for ChromeDriver and Chrome binary
+                        bat "set WEBDRIVER_CHROME_DRIVER=${driverPath}"
+                        bat "set CHROME_BIN=${chromeBinary}"
+
+                        // Executes Maven test command with Chrome as the browser
+                        bat 'mvn test -Dbrowser=chrome'
                     } catch (e) {
                         unstable('Tests failed!') // Sets the build status to unstable if tests fail
                         echo "Tests failed" // Outputs a message indicating test failure
