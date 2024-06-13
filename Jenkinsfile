@@ -6,10 +6,6 @@ pipeline {
         jdk 'JDK11' // JDK installation named 'JDK11'
     }
     
-    environment {
-        CHROME_BIN = 'C:\\Users\\utkarshsingh01\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe' // Path to Chrome binary
-    }
-    
     stages {
         stage('Build') {
             steps {
