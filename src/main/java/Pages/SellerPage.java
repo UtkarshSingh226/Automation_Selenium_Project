@@ -14,11 +14,11 @@ public class SellerPage {
     WebDriverWait wait;
 
     // WebElement for the "Become a Seller" link
-    @FindBy(xpath = "//a[@class=\"_1krdK5 _3jeYYh\" and @title=\"Become a Seller\"]")
+    @FindBy(xpath = "//*[@id=\"container\"]/div/div[1]/div/div/div/div/div[1]/div/div[1]/div/div[1]/div[1]/header/div[2]/div[4]/div/a[2]")
     WebElement seller;
     
     // WebElement for the "Start Selling" button
-    @FindBy(xpath = "//button[@data-testid=\"button\" and text()=\"Start Selling\"]")
+    @FindBy(xpath = "//*[@id=\"app\"]/div/div[2]/div/div/div[2]/button[2]")
     WebElement startSelling;
     
     // WebElement for the mobile number field
