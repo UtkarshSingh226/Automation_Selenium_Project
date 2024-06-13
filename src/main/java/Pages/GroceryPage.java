@@ -72,9 +72,9 @@ public class GroceryPage {
     public boolean isItemAdded() {
         try {
             wait.until(ExpectedConditions.visibilityOf(cartLink));
-            return false; // If the element is visible, return true
+            return true; // If the element is visible, return true
         } catch (TimeoutException e) {
-            return true; // If the element is not visible within the timeout period, return false
+            return false; // If the element is not visible within the timeout period, return false
         }	
     }
 }
