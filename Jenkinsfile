@@ -18,24 +18,23 @@ pipeline {
         }
 
         stage('Test - Chrome') { // Second stage: Test on Chrome
+            environment { // Defines environment variables for this stage
+                CHROME_DRIVER_PATH = env.CHROME_DRIVER_PATH // Path to ChromeDriver executable
+                CHROME_BIN_PATH = env.CHROME_BIN // Path to Chrome executable
+            }
             steps { // Steps to be executed in this stage
                 script {
-                    def chromeBinary = 'C:\\Users\\utkarshsingh01\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe' // Provide the actual path to chrome.exe
-                    def driverPath = 'C:\\Users\\utkarshsingh01\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe' // Provide the actual path to chromedriver.exe
-
                     try {
                         // Set environment variables for ChromeDriver and Chrome binary
-                        bat "set WEBDRIVER_CHROME_DRIVER=${driverPath}"
-                        bat "set CHROME_BIN=${chromeBinary}"
+                        bat "set WEBDRIVER_CHROME_DRIVER=%CHROME_DRIVER_PATH%"
+                        bat "set CHROME_BIN=%CHROME_BIN_PATH%"
 
                         // Executes Maven test command with Chrome as the browser
                         bat 'mvn test -Dbrowser=chrome'
                     } catch (e) {
                         unstable('Tests failed!') // Sets the build status to unstable if tests fail
                         echo "Tests failed" // Outputs a message indicating test failure
-                    } finally {
-                        junit 'target/surefire-reports/*.xml' // Archive test results
-                    }
+                    } 
                 }
             }
         }
