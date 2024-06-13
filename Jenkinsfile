@@ -22,7 +22,7 @@ pipeline {
         stage('Test') {
             steps {
                 // Run tests
-                bat 'mvn test'
+                bat 'mvn clean test -DsuiteXMLFile=testng.xml'
             }
             post {
                 success {
